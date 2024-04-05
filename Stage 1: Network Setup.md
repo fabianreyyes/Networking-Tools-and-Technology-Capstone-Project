@@ -9,7 +9,7 @@ Following the guidelines provided in the GNS3 Guide for adding devices to the la
 ## Configure the LAN network
 In this setup process for the FortiNet firewall in GNS3, the initial steps involve starting the firewall and accessing its console interface. After starting, the firewall undergoes a setup process, followed by the login screen where the default credentials are provided. Upon login, a new password is set, and the LAN interface is configured according to the client's specifications, including assigning IP addresses and enabling DHCP services. Verification steps are undertaken to ensure the correctness of the configuration.
 
-![image](https://github.com/fabianreyyes/Networking-Tools-and-Technology-Capstone-Project/assets/165975783/e7d389fe-f24c-475c-b2eb-91757f79aba6)
+![image](https://github.com/fabianreyyes/Networking-Tools-and-Technology-Capstone-Project/blob/main/images/fortigatecl.png)
 
 
 ## Add a Win10 workstation 
@@ -18,7 +18,7 @@ Following the setup of the Win10 workstation in the lab environment, login with 
 ## Connect to the firewall GUI 
 After setting up the Win10 workstation, the next step involves accessing the firewall's GUI from the workstation's web browser. Logging in with the previously used credentials, adjustments are made to the firewall's system settings, including hostname, timezone, enabling NTP server service, adjusting idle logout time, and enabling auto file system check. These changes are applied via the GUI interface to ensure proper system configuration. Additionally, a backup of the firewall configuration is taken, adhering to best practices for configuration management. Finally, the firewall is rebooted to implement the changes effectively.
 
-![image](https://github.com/fabianreyyes/Networking-Tools-and-Technology-Capstone-Project/assets/165975783/ca709278-ed96-4cf6-ab8d-1e1344369aa2)
+![image](https://github.com/fabianreyyes/Networking-Tools-and-Technology-Capstone-Project/blob/main/images/fortigategui.png)
 
 ## Complete Network setup
 In the final step of Stage 1, a comprehensive configuration is performed on the FortiGate firewall. This lengthy process involves multiple tasks, starting with connecting to the firewall GUI from the Win10 workstation and ensuring a backup of the firewall configuration is taken before proceeding. Network interfaces are configured, including WAN, LAN, GUEST, and DMZ, each with specific IP addressing and settings. DNS services are enabled and configured, followed by the creation of service objects for LAN and DMZ networks. Firewall rules are then established to govern traffic flow between LAN, DMZ, and WAN interfaces, ensuring appropriate access control and NAT settings. Throughout the process, adherence to best practices is emphasized, including taking backups before and after configuration changes.
