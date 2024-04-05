@@ -13,3 +13,5 @@ After setting up the Win10 workstation, the next step involves accessing the fir
 
 ## Complete Network setup
 In the final step of Stage 1, a comprehensive configuration is performed on the FortiGate firewall. This lengthy process involves multiple tasks, starting with connecting to the firewall GUI from the Win10 workstation and ensuring a backup of the firewall configuration is taken before proceeding. Network interfaces are configured, including WAN, LAN, GUEST, and DMZ, each with specific IP addressing and settings. DNS services are enabled and configured, followed by the creation of service objects for LAN and DMZ networks. Firewall rules are then established to govern traffic flow between LAN, DMZ, and WAN interfaces, ensuring appropriate access control and NAT settings. Throughout the process, adherence to best practices is emphasized, including taking backups before and after configuration changes.
+
+![image](https://github.com/fabianreyyes/Networking-Tools-and-Technology-Capstone-Project/assets/165975783/4a8e1460-526e-497b-9296-499696bbb2c5)
