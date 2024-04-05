@@ -9,6 +9,9 @@ Following the guidelines provided in the GNS3 Guide for adding devices to the la
 ## Configure the LAN network
 In this setup process for the FortiNet firewall in GNS3, the initial steps involve starting the firewall and accessing its console interface. After starting, the firewall undergoes a setup process, followed by the login screen where the default credentials are provided. Upon login, a new password is set, and the LAN interface is configured according to the client's specifications, including assigning IP addresses and enabling DHCP services. Verification steps are undertaken to ensure the correctness of the configuration.
 
+![image](https://github.com/fabianreyyes/Networking-Tools-and-Technology-Capstone-Project/assets/165975783/e7d389fe-f24c-475c-b2eb-91757f79aba6)
+
+
 ## Add a Win10 workstation 
 Following the setup of the Win10 workstation in the lab environment, login with default credentials is performed, ensuring connectivity to the LAN network. Network settings are then checked according to Microsoft guidelines, focusing on TCP/IP settings and DHCP client troubleshooting. Verification of DHCP lease from the LAN network is conducted, ensuring the Win10 workstation has obtained a valid IP address and necessary configuration parameters. To validate network connectivity, ping tests are performed targeting LAN, WAN, and DNS destinations. While LAN access should be successful, WAN and DNS pings are expected to fail, indicating appropriate network segmentation and isolation.
 
