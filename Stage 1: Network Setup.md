@@ -15,11 +15,10 @@ In this setup process for the FortiNet firewall in GNS3, the initial steps invol
 ## Add a Win10 workstation 
 Following the setup of the Win10 workstation in the lab environment, login with default credentials is performed, ensuring connectivity to the LAN network. Network settings are then checked according to Microsoft guidelines, focusing on TCP/IP settings and DHCP client troubleshooting. Verification of DHCP lease from the LAN network is conducted, ensuring the Win10 workstation has obtained a valid IP address and necessary configuration parameters. To validate network connectivity, ping tests are performed targeting LAN, WAN, and DNS destinations. While LAN access should be successful, WAN and DNS pings are expected to fail, indicating appropriate network segmentation and isolation.
 
-![image](https://github.com/fabianreyyes/Networking-Tools-and-Technology-Capstone-Project/assets/165975783/bcc6bb69-2b17-49e6-974c-fb8508b7bd9c)
-
-
 ## Connect to the firewall GUI 
 After setting up the Win10 workstation, the next step involves accessing the firewall's GUI from the workstation's web browser. Logging in with the previously used credentials, adjustments are made to the firewall's system settings, including hostname, timezone, enabling NTP server service, adjusting idle logout time, and enabling auto file system check. These changes are applied via the GUI interface to ensure proper system configuration. Additionally, a backup of the firewall configuration is taken, adhering to best practices for configuration management. Finally, the firewall is rebooted to implement the changes effectively.
+
+![image](https://github.com/fabianreyyes/Networking-Tools-and-Technology-Capstone-Project/assets/165975783/f04a3937-fad8-4049-bc0b-a2aaccc4b89e)
 
 ## Complete Network setup
 In the final step of Stage 1, a comprehensive configuration is performed on the FortiGate firewall. This lengthy process involves multiple tasks, starting with connecting to the firewall GUI from the Win10 workstation and ensuring a backup of the firewall configuration is taken before proceeding. Network interfaces are configured, including WAN, LAN, GUEST, and DMZ, each with specific IP addressing and settings. DNS services are enabled and configured, followed by the creation of service objects for LAN and DMZ networks. Firewall rules are then established to govern traffic flow between LAN, DMZ, and WAN interfaces, ensuring appropriate access control and NAT settings. Throughout the process, adherence to best practices is emphasized, including taking backups before and after configuration changes.
