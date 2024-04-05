@@ -13,4 +13,5 @@ Updated network adapter IP addresses, conducted ping tests to verify connectivit
 ## Install Active Directory
 
 DC guide: https://learn.microsoft.com/en-us/archive/technet-wiki/22622.building-your-first-domain-controller-on-2012-r2
-Deployed Active Directory services and configured the computer/domain name to "domaincontroller" (Note: Instrctions stated to name it localdomain). Executed a system reboot. Subsequently, initiated the promotion process to elevate the configuration to domain controller status. After completion, performed another system reboot to finalize the configuration changes.
+
+Deployed Active Directory services and configured the computer/domain name to **"domaincontroller"** (Note: Instrctions stated to name it localdomain). Executed a system reboot. Subsequently, initiated the promotion process to elevate the configuration to domain controller status. After completion, performed another system reboot to finalize the configuration changes.
