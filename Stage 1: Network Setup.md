@@ -1,6 +1,6 @@
 # Stage 1- Networksetup
 
-![image](https://github.com/fabianreyyes/Networking-Tools-and-Technology-Capstone-Project/assets/165975783/5176e6f6-0b7e-4135-9253-1a1efecfc0b4)
+https://github.com/fabianreyyes/Networking-Tools-and-Technology-Capstone-Project/blob/main/images/starttopology.png
 
 Following the guidelines provided in the GNS3 Guide for adding devices to the lab workspace, key additions include a FortiNet firewall, two Ethernet switches (LAN and DMZ), and a Windows 10 workstation. The WAN-SWITCH remains connected to the WAN-CLOUD. The FortiNet firewall is strategically linked: its WAN port to the WAN-SWITCH, LAN port to the LAN-SWITCH, and DMZ port to the DMZ-SWITCH. Additionally, the Windows 10 workstation is connected to the LAN-SWITCH.
 
