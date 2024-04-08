@@ -2,7 +2,7 @@
 
 In this stage we added a Win2012r2 server and connected it to our DMZ-SWITCH to serve as FTP Host.
 
-![image(https://github.com/fabianreyyes/Networking-Tools-and-Technology-Capstone-Project/blob/main/images/endingtopologys5.png)
+![image](https://github.com/fabianreyyes/Networking-Tools-and-Technology-Capstone-Project/blob/main/images/endingtopologys5.png)
 
 ## Prepare a Win2012r2 server
 
