@@ -1,4 +1,4 @@
-# Domain Setup
+# Stage 2- Domain Setup
 
 In this stage we added a Windows2012r2 server and connected it to our LAN-SWITCH to serve as our domain controller.
 
