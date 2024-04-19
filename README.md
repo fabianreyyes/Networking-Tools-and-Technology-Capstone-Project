@@ -1,4 +1,4 @@
-# Networking-Tools-and-Technology-Capstone-Project
+# Simulated-Network-Capstone-Project
 
 In this project, we are tasked with building a small business environment for a client at our MSP (Managed Service Provider). Our lab group, led by our senior engineer instructor, will be working through implementing various components requested by the client. The lab workspace consists of two essential objects: the WAN-CLOUD and WAN-SWITCH, which are crucial to our setup and must not be modified.
 
